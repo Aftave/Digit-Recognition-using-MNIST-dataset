@@ -1,47 +1,57 @@
-## Digit Recognition using MNIST dataset
+# Digit Recognition App
 
-Utilized python with TensorFlow to build and train the digit recognition model. Built and trained a Convolutional neural network (CNN) model on MNIST dataset. Performed data preprocessing and model evaluation using techniques like accuracy, confusion matrix, normalization, etc.
-Built a real-time digit recognition model using computer vision a deep learning. Used python, tensorflow, webcam input to capture, process and classify hand written digits.
+A simple digit recognition application built using Python, Pygame, and Keras.
 
-## **Installation**
+## Installation
 
-To install Project Title, follow these steps:
+1. Clone the repository:
+```
+git clone https://github.com/your-username/digit-recognition-app.git
+```
+2. Install the required dependencies:
+```
+pip install -r requirements.txt
+```
 
-1. Clone the repository: **`git clone https://github.com/Aftave/Digit-Recognition-using-MNIST-dataset.git`**
-2. Navigate to the project directory: **`cd Digit-Recognition-using-MNIST-dataset`**
-3. Install dependencies: **`npm install pygame`**
-4. Start the project: **`python prjct.py`**
+## Usage
 
-## **Usage**
+1. Run the `prjct.py` script:
+```
+python prjct.py
+```
+2. The application window will open, allowing you to draw a digit on the screen.
+3. The recognized digit will be displayed in the top-left corner of the window.
+4. Press the 'n' key to clear the drawing area.
 
-To use Project Title, follow these steps:
+## API
 
-1. Open the project in your favorite code editor.
-2. Modify the source code to fit your needs.
-3. Start the project: **`python prjct.py`**
-4. Use the project as desired.
+The application uses the following APIs and libraries:
 
-## **Contributing**
+- **Pygame**: For creating the drawing canvas and handling user input.
+- **Keras**: For loading the pre-trained digit recognition model and making predictions.
+- **OpenCV (cv2)**: For image processing and saving the drawn digit.
+- **NumPy**: For array manipulation and image preprocessing.
 
-If you'd like to contribute to Project Title, here are some guidelines:
+## Contributing
+
+If you would like to contribute to this project, please follow these steps:
 
 1. Fork the repository.
-2. Create a new branch for your changes.
-3. Make your changes.
-4. Write tests to cover your changes.
-5. Run the tests to ensure they pass.
-6. Commit your changes.
-7. Push your changes to your forked repository.
-8. Submit a pull request.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your changes to your forked repository.
+5. Submit a pull request to the original repository.
 
-## **License**
+## License
 
-Project Title is released under the MIT License. See the **[LICENSE](https://www.blackbox.ai/share/LICENSE)** file for details.
+This project is licensed under the [MIT License](LICENSE).
 
-## **Authors and Acknowledgment**
+## Testing
 
-Project Title was created by **Seikh Aftave(https://github.com/Aftave)**.
+To run the tests for this project, use the following command:
 
-## **Contact**
+```
+python -m unittest discover tests/
+```
 
-If you have any questions or comments about Project Title, please contact **Seikh Afatve(aftavesk@gmail.com)**.
+This will run all the test cases located in the `tests/` directory.
